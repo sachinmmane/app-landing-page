@@ -1,0 +1,16 @@
+/*Add a cover background picture for the featured part with a fixed height*/
+.jumbotron {
+	background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/166.jpg) center center;
+	background-size: cover;
+	height: 600px;
+	
+}
+
+
+/*	set size og the logo*/
+
+.logo {
+	width: 95px;
+	height: 95px;
+	margin-left: 15px;
+}
