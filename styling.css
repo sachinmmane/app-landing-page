@@ -12,5 +12,31 @@
 .logo {
 	width: 95px;
 	height: 95px;
-	margin-left: 15px;
+	;
+}
+
+/*	set text color of featured content */
+
+.featured {
+	color: #fff; 
+}
+
+/*	create space between the title and the logo */
+.featured h1 {
+	padding-top: 60px
+}
+
+/*	style link */
+.featured .btn-default {
+	font-weight: bold;
+	color: white;
+	background-color: rgba(145, 82, 58, 0.5);
+	border-radius: 10px;
+	margin-top: 20px;
+	width: 160px;
+	margin-right: 15px;
+}
+
+.featured .btn-default:hover {
+	background-color: rgba(145, 82, 58);
 }
